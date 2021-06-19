@@ -5,13 +5,13 @@ import React from "react";
 
 class Shape {
   constructor() {
-    this.color = "#fffff";
+    this.background = "black";
   }
   drawShape() {
-    console.log("draw");
+    console.log("drawShape");
   }
   calculateArea() {
-    console.log("area");
+    console.log("calculateArea");
   }
   render() {
     return <h1>Shape</h1>;
