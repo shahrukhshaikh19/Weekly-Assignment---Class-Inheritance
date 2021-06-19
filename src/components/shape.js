@@ -14,7 +14,7 @@ class Shape {
     console.log("calculateArea");
   }
   render() {
-    return <h1>Shape</h1>;
+    return <p>This is Shape:</p>;
   }
 }
 module.exports = Shape;
