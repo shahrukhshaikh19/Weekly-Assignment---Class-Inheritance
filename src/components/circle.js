@@ -10,7 +10,7 @@ class Circle extends Shape {
     super(props);
   }
   calculateArea() {
-    console.log("circle area");
+    console.log("circle area is:");
   }
   render() {
     return <h1>Circle</h1>;
